@@ -19,5 +19,9 @@
         android:id="@+id/replyFragment"
         android:name="com.potis.honorsmobileapps.navigationcomponentdemo.ReplyFragment"
         android:label="fragment_reply"
-        tools:layout="@layout/fragment_reply" />
+        tools:layout="@layout/fragment_reply" >
+        <argument
+            android:name="messageArg"
+            app:argType="string" />
+    </fragment>
 </navigation>
